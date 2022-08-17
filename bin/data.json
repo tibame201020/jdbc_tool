@@ -1,0 +1,27 @@
+[
+    {
+        "name":"weblogicDsname",
+        "jndiName":"weblogicDsjndiName",
+		"dsURL":"weblogicDsURL",
+        "user":"weblogicDsuser",
+        "password":"weblogicDspassword",
+        "target":"AdminServer"
+    },
+	{
+        "name":"weblogicDsname",
+        "jndiName":"weblogicDsjndiName",
+		"dsURL":"weblogicDsURL",
+        "user":"weblogicDsuser",
+        "password":"weblogicDspassword",
+        "target":"AdminServer"
+    },
+	{
+        "name":"weblogicDsname",
+        "jndiName":"weblogicDsjndiName",
+		"dsURL":"weblogicDsURL",
+        "user":"weblogicDsuser",
+        "password":"weblogicDspassword",
+        "target":"AdminServer"
+    }
+	
+]

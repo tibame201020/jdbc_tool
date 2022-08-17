@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+<VBox xmlns:fx="http://javafx.com/fxml" alignment="BASELINE_LEFT" spacing="20.0"
+      fx:controller="com.example.demo.ServerConfigController">
+    <padding>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+    </padding>
+
+    <Label fx:id="info"></Label>
+
+    <Text>envCmdPath:</Text>
+    <TextField fx:id="envCmdPath" promptText="ex: D:\Dev\Oracle\wls12\user_projects\domains\test_weblogic12\bin\setDomainEnv.cmd"/>
+    <Text>wlstCmdPath:</Text>
+    <TextField fx:id="wlstCmdPath" promptText="ex: D:\Dev\Oracle\wls12\oracle_common\common\bin\wlst.cmd"/>
+    <Text>ServerUser:</Text>
+    <TextField fx:id="username"/>
+    <Text>ServerPwd:</Text>
+    <TextField fx:id="password"/>
+    <Text>ServerUrl:</Text>
+    <TextField fx:id="url" promptText="ex: t3://localhost:6008"/>
+    <Button fx:id="saveBtn" text="save" onAction="#onSave"/>
+</VBox>

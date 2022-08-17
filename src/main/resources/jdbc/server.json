@@ -1,0 +1,5 @@
+{
+	"adminUsername":"weblogicUser",
+	"adminPassword":"weblogicPwd",
+	"adminURL":"t3://localhost:6008"
+}
